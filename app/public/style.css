@@ -1,3 +1,22 @@
 body{
-    background-color: aqua;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: large;
+}
+
+.form-container{
+    width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form+p{
+    text-align: center;
 }
